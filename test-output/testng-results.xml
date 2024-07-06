@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-06T09:01:52 IST" name="Suite" finished-at="2024-07-06T09:02:18 IST" duration-ms="26849">
+    <groups>
+    </groups>
+    <test started-at="2024-07-06T09:01:52 IST" name="TestChrome" finished-at="2024-07-06T09:02:04 IST" duration-ms="12222">
+      <class name="com.LoginTest.VerfiyTC_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.VerfiyTC_001@7ac296f6]" started-at="2024-07-06T09:01:52 IST" name="setUp" finished-at="2024-07-06T09:01:56 IST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTest()[pri:0, instance:com.LoginTest.VerfiyTC_001@7ac296f6]" started-at="2024-07-06T09:01:56 IST" name="verifyLoginTest" finished-at="2024-07-06T09:01:58 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.VerfiyTC_001@7ac296f6]" started-at="2024-07-06T09:01:58 IST" name="tearDown" finished-at="2024-07-06T09:02:04 IST" duration-ms="5293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LoginTest.VerfiyTC_001 -->
+    </test> <!-- TestChrome -->
+    <test started-at="2024-07-06T09:02:04 IST" name="TestEdge" finished-at="2024-07-06T09:02:18 IST" duration-ms="13938">
+      <class name="com.LoginTest.VerfiyTC_001">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.LoginTest.VerfiyTC_001@1e13529a]" started-at="2024-07-06T09:01:49 IST" name="initilization" finished-at="2024-07-06T09:01:52 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.VerfiyTC_001@1e13529a]" started-at="2024-07-06T09:02:04 IST" name="setUp" finished-at="2024-07-06T09:02:09 IST" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTest()[pri:0, instance:com.LoginTest.VerfiyTC_001@1e13529a]" started-at="2024-07-06T09:02:09 IST" name="verifyLoginTest" finished-at="2024-07-06T09:02:12 IST" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.VerfiyTC_001@1e13529a]" started-at="2024-07-06T09:02:12 IST" name="tearDown" finished-at="2024-07-06T09:02:18 IST" duration-ms="6724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LoginTest.VerfiyTC_001 -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite -->
+</testng-results>

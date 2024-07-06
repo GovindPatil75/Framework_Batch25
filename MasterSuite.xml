@@ -7,7 +7,7 @@
   <test thread-count="5" name="TestChrome">
   <parameter name="BrowserName" value="Chrome"></parameter>
     <classes>
-      <class name="com.LoginTest.VerfiyTC_001"/>
+      <class name="com.LoginTest.VerfiyTC_001"/>  
     </classes>
   </test> <!-- Test -->
   
@@ -17,4 +17,5 @@
       <class name="com.LoginTest.VerfiyTC_001"/>
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

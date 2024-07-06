@@ -41,8 +41,9 @@ public class BaseClass {
 	}
 
 	@AfterMethod
-	public void tearDown() {
-		
+	public void tearDown() throws Exception {
+		Thread.sleep(5000);
 		driver.quit();
 	}
+	
 }
