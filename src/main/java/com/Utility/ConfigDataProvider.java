@@ -20,4 +20,15 @@ public class ConfigDataProvider {
 		return pro.getProperty("BaseUrl");
 	}
 	
+    public String getUsername() {
+		
+		return pro.getProperty("Username");
+	}
+    
+    public String getPassword() {
+	
+	return pro.getProperty("Password");
+}
+	
+	
 }
