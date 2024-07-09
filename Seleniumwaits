@@ -1,0 +1,21 @@
+Selenium Waits
+1. Impilcit wait :
+
+All the element applicable - globally apply 
+syntax :
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
+2. Explicit wait :
+
+Perticluar element apply --- with condition apply
+
+syntax :
+WebDriverWait wait=new WebDriverWait(driver,Duration.ofseconds(5));
+wait.until(ExpectedConditions.visibilityofElement(WebELement));
+
+Step :
+element action --- weblement show 
+elment action --- click enabled
+
+3.Fluent wait : 30 sec --- 5 sec -- check webelement -- ignore exception 
